@@ -1,0 +1,24 @@
+class BloodData {
+    private	String bloodType;
+    private	String rhFactor;
+    
+    public BloodData(){
+    	this.bloodType = "O";
+    	this.rhFactor = "+";
+    }
+    public String getBloodType(){                                                                                                                                  
+    	return bloodType;
+    }
+   	void setBloodType(String bloodType){
+    	this.bloodType = bloodType;
+    }
+    public String getRhFactor(){
+    	return rhFactor;
+    }
+    void setRhFactor(String rhFactor){
+    	this.rhFactor = rhFactor;
+    }
+    public void display(){
+    	System.out.print(bloodType + rhFactor + " is added to the bank.");
+	}
+}
